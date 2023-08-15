@@ -1,5 +1,0 @@
-navigate to:
-
-mainpage -> double click 'index.html'
-
-*static pages therefore no server required.*

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--
+Tyrese Fisher
+Creative Leadership Summer 23'
+991517196
+-->
+<html lang="en">
+<head>
+<title>History of Leadership Theories</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+img {
+
+  height: auto;
+
+  max-width: 100%;
+
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="../subpages/timeline.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Timeline</a>
+    <a href="../subpages/types.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Types of Leadership Styles</a>
+    <a href="../subpages/examples.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Case Studies/Practical Applications</a>
+    <a href="../subpages/contributions.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Contributions of Key Theorists</a>
+    <a href="../subpages/references.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">References</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="P1-PlanDoc-TyreseF.pdf">Project Proposal Doc</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+        <h1 class="w3-text-teal">Exploring the Evolution of Leadership Theories</h1>
+        <p>Welcome to my creative artifact, a platform for diving into the history of leadership theories and their impact on shaping effective leadership practices. By understanding the evolution of these theories, we can learn from the past, build upon proven strategies, and make informed decisions to drive positive change in leadership.</p>
+        
+        <p>This website allows me to provide valuable insights into historical leadership approaches and their practical applications in diverse contexts. By drawing parallels between past and present practices, I not only enhance my analytical skills but also deepen my understanding of what seeds successful leadership.</p>
+        
+        <p>As a cybersecurity student, this endeavor seamlessly aligns with my technical expertise. I understand HTML, CSS, and various web application languages; this allowed me to create this platform to offer an engaging and visually appealing experience.</p>
+        
+        <p>One of the advantages of presenting this information through a website is the ease of referencing sources. By directly linking to the references I've used, visitors can explore the materials that support the content. They have the option to view these references on the site or conveniently open them in new tabs just like any other link.</p>
+    </div>
+    
+    <div class="w3-third w3-container">
+        <div class="w3-card w3-padding-large w3-center">
+            <p class="w3-large">Further Info</p>
+            <p>Check out a site that also explain historical leadership practices and strategies</p>
+            <a href="https://leadersexcellence.com/the-evolution-of-leadership/" class="w3-button w3-teal w3-margin-top">Learn More</a>
+        </div>
+    </div>
+</div>
+
+  <footer id="myFooter">
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
